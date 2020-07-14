@@ -33,8 +33,8 @@ The API for all 4 of these behaviors is defined by the `Connector` service found
 
 To create a connector:
 
-1. [Generate the gRPC code](/#generating-a-connector)
-2. [Write your custom code](/#writing-your-custom-code)
+1. [Generate the gRPC code](#generating-a-connector)
+2. [Write your custom code](#writing-your-custom-code)
 3. [Host your Connector](#hosting-your-connector)
 4. [Register your Connector with the Platform](#registering-your-connector)
 
