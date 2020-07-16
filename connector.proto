@@ -36,6 +36,7 @@ message Trigger {
   string type = 2;
   string app_key = 3;
   repeated Field outputs = 4;
+  string description = 5;
 }
 
 message TriggerRequest {
