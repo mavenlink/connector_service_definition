@@ -4,6 +4,8 @@
 
 A connector is a service that can extend the Mavenlink Workflow Platform with custom triggers and actions. 
 
+![Architecture Diagram](assets/Architecture.png)
+
 Triggers and actions are the basic building blocks of Workflows.
 
 Triggers check for new events and return the list of new events to the platform. The platform will poll the connector at regular intervals (currently every 5 seconds) to check for new events. The Platform will use the list of events to decide which Workflows to run.
