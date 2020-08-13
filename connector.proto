@@ -29,6 +29,7 @@ message ActionResponse {
   };
   Status status = 1;
   map<string,string> outputs = 2;
+  string error_message = 3;
 }
 
 message Trigger {
