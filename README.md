@@ -12,7 +12,7 @@ Actions take a list of inputs, execute some custom business logic, and return a 
 
 ## Why create a connector?
 
-By chaining a trigger and multiple actions users can create custom workflows, or append new behavior to existing workflows. The Core Library will provide many common triggers and actions, but could never exhaust every possibility. Connectors allow people with coding knowledge to create new triggers and actions.
+By chaining a trigger and multiple actions users can create custom workflows, or append new behavior to existing workflows. The Core Library will provide many common triggers and actions, but could never exhaust every possibility. Connectors allow people with coding knowledge to extend the library by creating new triggers and actions.
 
 ## How does a connector work?
 
