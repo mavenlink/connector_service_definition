@@ -14,6 +14,7 @@ message Action {
   string description = 2;
   repeated Field inputs = 3;
   repeated Field outputs = 4;
+  bool deprecated = 5;
 }
 
 message ActionRequest {
