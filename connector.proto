@@ -39,6 +39,7 @@ message Trigger {
   string app_key = 3;
   repeated Field outputs = 4;
   string description = 5;
+  bool deprecated = 6;
 }
 
 message TriggerRequest {
